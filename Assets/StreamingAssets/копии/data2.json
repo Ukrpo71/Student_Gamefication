@@ -1,0 +1,175 @@
+{
+	"allRoundData": [{
+		"name": "Тренировочный тест",
+		"timeLimitInSeconds": 20,
+		"pointsAddedForCorrectAnswers": 1,
+		"questions": [{
+			"questionText": "Информатика =",
+			"answers": [{
+					"answerText": "Информация + автоматика",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Информация + наука",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Компьютер + автоматика",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Инофрмация + математика",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Информация, представленная в цифровой форме и обрабатываемая на компьютере, называется?",
+			"answers": [{
+					"answerText": "Числами",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Данными",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Файлами",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Знаниями",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Выходные (полученные) данные предоставляются пользователю с помощью?",
+			"answers": [{
+				"answerText": "Сетевых устройств",
+				"isCorrect": false
+			}, {
+				"answerText": "Устройств ввода информации",
+				"isCorrect": false
+			}, {
+				"answerText": "Устройств вывода информации",
+				"isCorrect": true
+			}, {
+				"answerText": "Физических устройств",
+				"isCorrect": false
+			}]
+		}, {
+			"questionText": "Системный блок –?",
+			"answers": [{
+					"answerText": "Вспомогательное устройство",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Основное устройство компьютера",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Дополнительное устройство компьютера",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Нет правильного ответа",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Все устройства, которые находятся в системном блоке, считаются?",
+			"answers": [{
+					"answerText": "Внешними",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Внутренними",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Вспомогательными",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Второстепенными",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Первый счетный прибором древности является:",
+			"answers": [{
+					"answerText": "Калькулятор",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Абак",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Арифмометр",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Другое устройство",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Универсальный прибор для обработки информации?",
+			"answers": [{
+					"answerText": "Калькулятор",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Компьютер",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Принтер",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Сканнер",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "По этой шине данные передаются между различными устройствами?",
+			"answers": [{
+					"answerText": "Шина управления",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Шина данных",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Шина адреса",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Шина передачи",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Считывает и выполняет команды?",
+			"answers": [{
+					"answerText": "Память",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Процессор",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Магистраль",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Шина",
+					"isCorrect": false
+				}
+			]
+		}]
+	}]
+}

@@ -1,0 +1,306 @@
+{
+	"allRoundData": [{
+		"name": "2",
+		"questions": [{
+			"questionText": "1. Маска подсети по умолчанию для класса С:",
+			"answers": [{
+					"answerText": "255.0.0.0",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "255.255.0.0",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "255.255.255.0",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "255.255.255.255",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "2. Локальный хост (петля) определен как:",
+			"answers": [{
+					"answerText": "127.0.0.1",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "1.0.0.1",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "0.0.0.0",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "255.255.255.255",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "3. Верный диапазон идентификаторов узлов первой подсети при маске подсети 255.255.224.0:",
+			"answers": [{
+				"answerText": "x.y.17.1-x.y.31.254",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "x.y.192.1- x.y.254.254",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "x.y.96.1- x.y.126.254",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "x.y.33.1- x.y.63.254",
+				"pointsAddedForCorrectAnswer": 1
+			}]
+		}, {
+			"questionText": "4. Маске подсети 255.255.255.240 соответствует количество подсетей:",
+			"answers": [{
+					"answerText": "32",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "15",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "14",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "6",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "5. При использовании динамической маршрутизации:",
+			"answers": [{
+					"answerText": "Таблица маршрутизации формируется вручную системным администратором",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Существует только один маршрут к сети назначения",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Таблица маршрутизации формируется автоматически без участия системного администратора",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Таблица маршрутизации присылается соседним роутерам",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "6. Назначение протокола маршрутизации",
+			"answers": [{
+					"answerText": "Нахождение сети назначения",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Пересылка записей таблицы маршрутизации",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Определение параметров сетевого адреса маршрутизатора",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Определение протокола связи",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "7. Контроллер домена это:",
+			"answers": [{
+					"answerText": "Обычный сервер сети",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Сервер, предназначенный для управления доменом",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Сервер, предназначенный для запуска всех сетевых служб сети",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Файловый сервер сети",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "8. Связь доменов gov.ru и edu.gov.ru",
+			"answers": [{
+					"answerText": "Принадлежат одному дереву доменов",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Находится в разных деревьях домена",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Находится в разных лесах доменов",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Имеют доверительные отношения",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "9. Сокет – это:",
+			"answers": [{
+					"answerText": "Составная часть пакета данных",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Сочетание протоколов",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Транспортный протокол + IP адрес + порт",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "IP адрес + порт + сетевой протокол",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "10. Маршрутизируемый протокол:",
+			"answers": [{
+					"answerText": "TCP/IP",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "NetBEUI",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "DLC",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "RIP и OSPF",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "11. Сетевая служба, используемая для определения IP адреса по доменному имени:",
+			"answers": [{
+					"answerText": "IIS",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "NAT",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "DHCP",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "DNS",
+					"pointsAddedForCorrectAnswer": 1
+				}
+			]
+		}, {
+			"questionText": "12. Компьютер клиента (операционная система Windows) получает параметры с DHCP сервера. Необходимо указать команду, позволяющую обновить параметры протокола TCP/IP на компьютере клиента с DHCP сервера:",
+			"answers": [{
+					"answerText": "Ipconfig",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Ifconfig",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Ipconfig /renew",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Ipconfig /all",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "13. В списке доступа содержится следующее правило: Permit tcp any host 192.168.1.1 It 25. По данному правилу обрабатываются номера портов: ",
+			"answers": [{
+					"answerText": "Все номера портов, большие чем 25",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Только 25 порт",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Все номера портов, меньшие чем 25",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "все порты, за исключением 25",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "14. В списке доступа параметр range n m задает:",
+			"answers": [{
+					"answerText": "все номера портов, меньшие n",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "все номера портов, большие n",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "все порты от n до m включительно",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "все порты, за исключением n",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "15. Компьютеры не могут передавать информацию одновременно, если сеть построена по топологии:",
+			"answers": [{
+					"answerText": "Шины",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Звезды",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Token ring",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "FDDI",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "16. Наличие коммутатора предполагается в топологии:",
+			"answers": [{
+					"answerText": "Шина",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Звезда",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Кольцо",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "WIFI",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}]
+	}]
+}

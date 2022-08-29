@@ -1,0 +1,61 @@
+{
+	"allRoundData": [{
+		"name": "Тренировочный тест",
+		"timeLimitInSeconds": 20,
+		"pointsAddedForCorrectAnswers": 1,
+		"questions": [{
+			"questionText": "Укажите количество этапов развития компьютеров?",
+			"answers": [{
+					"answerText": "6",
+					"isCorrect": true
+				},
+				{
+					"answerText": "4",
+					"isCorrect": false
+				},
+				{
+					"answerText": "5",
+					"isCorrect": false
+				},
+				{
+					"answerText": "7",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Что такое АЛУ?",
+			"answers": [{
+					"answerText": "Устройство для автоматического управления данными",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Логическое устройство для выполнения математических операций",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Устройство организации данных в памяти",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Блок памяти для хранения арифметических и логических операций процессора",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Транспортный протокол для передачи данных в Интернет?",
+			"answers": [{
+				"answerText": "HTTP",
+				"isCorrect": false
+			}, {
+				"answerText": "IP",
+				"isCorrect": false
+			}, {
+				"answerText": "TCP",
+				"isCorrect": true
+			}, {
+				"answerText": "FTP",
+				"isCorrect": false
+			}]
+		}]
+	}]
+}

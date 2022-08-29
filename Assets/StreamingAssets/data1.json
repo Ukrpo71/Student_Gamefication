@@ -1,0 +1,227 @@
+{
+	"allRoundData": [{
+		"name": "1",
+		"questions": [{
+			"questionText": "1. Для чего предназначен язык SQL?",
+			"answers": [{
+					"answerText": "1) Для написания программных продуктов",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "2) Для эффективной работы с информацией в СУБД",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "3) Для создания удобных оболочек для различных программ",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "4) Для более удобного оперирования математическими данными",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "2. С какой обязательной командой всегда используется Select??",
+			"answers": [{
+					"answerText": "1) Where",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "2) Like",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "3) From",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "4) Between",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "3. Какой язык препинания ставится в конце каждого запроса?",
+			"answers": [{
+				"answerText": "1) Точка",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "2) Двоеточие",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Точка с запятой",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "4) Слеш",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "4. Укажите оператор который используется для сортировки по убыванию",
+			"answers": [{
+				"answerText": "1) Not",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "2) Asc",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Or",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "4) Desc",
+				"pointsAddedForCorrectAnswer": 1
+			}]
+		}, {
+			"questionText": "5. Укажите оператор который используется для сортировки по возрастанию",
+			"answers": [{
+				"answerText": "1) Asc",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "2) Ins",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Desc",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "4) Not",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "6. Что позволяет сделать оператор Count (имя_колонки)?",
+			"answers": [{
+				"answerText": "1) Подсчёт всех столбцов таблицы",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "2) Суммирует все числовые данные столбца",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Подсчёт всех выбранных строк таблицы",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "4) Подсчёт всех записей таблицы",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "7. Укажите, какой из нижеприведенных запросов позволяет изменить цены, равные 1000 на 2000, в таблице Прайс-лист",
+			"answers": [{
+				"answerText": "1) Update Прайс_лист Set Цена = 1000 Where Цена = 2000",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "2) Revoke Прайс_лист Set Цена = 1000 Where Цена = 2000",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Update Прайс_лист Set Цена = 2000 Where Цена = 1000",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "4) Revoke Прайс_лист Set Цена = 2000 Where Цена = 1000",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "8. Что будет итогом следующего запроса: Select avg(Цена) From Прайс_лист?",
+			"answers": [{
+				"answerText": "1) Будет выведена на экран колонка Цена из таблицы Прайс_лист",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "2) Будет выведена на экран таблица Прайс_лист",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Будет выведена на экран только одна цена из таблицы Прайс_лист",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "4) Будет подсчитана средняя цена из таблицы Прайс_лист",
+				"pointsAddedForCorrectAnswer": 1
+			}]
+		}, {
+			"questionText": "9. Какой из нижеприведенных запросов является правильным с точки зрения синтаксиса?",
+			"answers": [{
+				"answerText": "1) Select город, население From карта Where население > 1000000;",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "2) Select город, население From карта Where [население] > 1000000;",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Select город; население From карта Where население > 1000000;",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "4) Select город, население From_карта Where население > 1000000;",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "10. Какой запрос позволяет выбрать все данные из таблицы 1 и поместить в таблицу 2?",
+			"answers": [{
+				"answerText": "1) Insert into Таблица 1 Select * From Таблица 2;",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "2) Select into Таблица 1 Select * From Таблица 2;",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Insert into Таблица 2 Select * From Таблица 1;",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "4) Select into Таблица 2 Select * From Таблица 1;",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "11. Какой оператор следует использовать при поиске по шаблону?",
+			"answers": [{
+				"answerText": "1) In",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "2) Between",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Like",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "4) Having",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "12. Какой оператор следует использовать при выборе данных с учетом диапазона значений?",
+			"answers": [{
+				"answerText": "1) In",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "2) Between",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "3) Like",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "4) Where",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "13. Какой оператор следует использовать при поиске в таблице какого-либо определенного значения?",
+			"answers": [{
+				"answerText": "1) In",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "2) Between",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "3) Like",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "4) Where",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "14. Можно ли создать SQL запрос с вычислением?",
+			"answers": [{
+				"answerText": "1) Да",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "2) Нет",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "15. Может ли язык SQL используется для создания приложений для программных продуктов?",
+			"answers": [{
+				"answerText": "1) Да",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "2) Нет",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}]
+	}]
+}

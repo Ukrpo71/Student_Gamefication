@@ -1,0 +1,194 @@
+{
+	"allRoundData": [{
+		"name": "Тренировочный тест",
+		"timeLimitInSeconds": 60,
+		"pointsAddedForCorrectAnswers": 1,
+		"questions": [{
+			"questionText": "С помощью чего реализуется принцип полиморфизма в С ++ ?",
+			"answers": [{
+					"answerText": "Наличия множественного наследования.",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Наличия виртуальных методов.",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Использование виртуального наследования",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Наличия абстрактных классов",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "В программе описано класс и объект class A {public: int a, b, c; }; A * obj; Как обратиться к атрибуту c ?",
+			"answers": [{
+					"answerText": "obj.c",
+					"isCorrect": false
+				},
+				{
+					"answerText": "obj-> с",
+					"isCorrect": true
+				},
+				{
+					"answerText": "obj A -> -> с",
+					"isCorrect": false
+				},
+				{
+					"answerText": "obj-> A.с",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Какая из перечисленных функций не может быть конструктором?",
+			"answers": [{
+				"answerText": "String ()",
+				"isCorrect": false
+			}, {
+				"answerText": "String (String & s)",
+				"isCorrect": false
+			}, {
+				"answerText": "void String () ",
+				"isCorrect": true
+			}, {
+				"answerText": "String (const int a)",
+				"isCorrect": false
+			}]
+		}, {
+			"questionText": "Отметьте правильное утверждение для абстрактного класса для языка С ++",
+			"answers": [{
+					"answerText": "Класс, у которого все методы чисто виртуальные, называется абстрактным",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Невозможно создать объект абстрактного класса",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Абстрактный базовый класс навязывает определенный интерфейс всем производным из него классам",
+					"isCorrect": false
+				},
+				{
+					"answerText": "В абстрактном классе не описываются методы вообще",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Если в программе на языке С ++ в производном классе переопределена операция new то?",
+			"answers": [{
+					"answerText": "все объекты этого класса и все объекты классов, выведенных из него, будут использовать эту операцию независимо от зоне видимости, в которой она переопределена.",
+					"isCorrect": false
+				},
+				{
+					"answerText": "производные от этого класса могут использовать глобальную операцию применив операцию базовий_класс :: new",
+					"isCorrect": true
+				},
+				{
+					"answerText": "операцию new нельзя переопределить",
+					"isCorrect": false
+				},
+				{
+					"answerText": "в любом случае эта операция будет доступна только в пределах класса-потомка",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Какой из перечисленных методов может быть конструктором для класса String в языке С ++:",
+			"answers": [{
+					"answerText": "String * String ()",
+					"isCorrect": false
+				},
+				{
+					"answerText": "String (String & s)",
+					"isCorrect": true
+				},
+				{
+					"answerText": "const String (int a)",
+					"isCorrect": false
+				},
+				{
+					"answerText": "void String ()",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Какая функция, не будучи компонентом класса, имеет доступ к его защищенным и внутренних компонентов?",
+			"answers": [{
+					"answerText": "Шаблонная",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Дружеская",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Полиморфная",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Статическая",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Вызовет данный код ошибку компиляции? class Rectangle public: int a, b; int sum (); int square (); ~ Rect (); }; ?",
+			"answers": [{
+					"answerText": "Ошибки нет, все записано верно",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Ошибка являются: имя деструктора должно совпадать с именем класса",
+					"isCorrect": true
+				},
+				{
+					"answerText": "Ошибка являются: имя деструктора не может начинаться с маленькой буквы",
+					"isCorrect": false
+				},
+				{
+					"answerText": "Ошибка являются: никакой идентификатор в С ++ не может начинаться со знака",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Укажите правильное объявление виртуального метода, который принимает одно целочисленное значение и возвращает void?",
+			"answers": [{
+					"answerText": "void SomeFunction (int х) virtual",
+					"isCorrect": false
+				},
+				{
+					"answerText": "virtual void SomeFunction (int х);",
+					"isCorrect": true
+				},
+				{
+					"answerText": "virtual SomeFunction (int х)",
+					"isCorrect": false
+				},
+				{
+					"answerText": "virtual void SomeFunction (int * x)",
+					"isCorrect": false
+				}
+			]
+		}, {
+			"questionText": "Укажите правильное использование оператора friend?",
+			"answers": [{
+					"answerText": "class A {int_friend CountPass (); private: short i;};",
+					"isCorrect": false
+				},
+				{
+					"answerText": "class A {public: friend int Н :: CountPass (); private: short i;}; ",
+					"isCorrect": true
+				},
+				{
+					"answerText": "class A {public: int A1 :: CountPass (); friend: short i;};",
+					"isCorrect": false
+				},
+				{
+					"answerText": "class A {public: friend int Н :: q; short i;};",
+					"isCorrect": false
+				}
+			]
+		}]
+	}]
+}

@@ -1,0 +1,173 @@
+{
+	"allRoundData": [{
+		"name": "Тренировочный тест",
+		"questions": [{
+			"questionText": "Информатика =",
+			"answers": [{
+					"answerText": "Информация + автоматика",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Информация + наука",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Компьютер + автоматика",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Инофрмация + математика",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "Информация, представленная в цифровой форме и обрабатываемая на компьютере, называется?",
+			"answers": [{
+					"answerText": "Числами",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Данными",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Файлами",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Знаниями",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "Выходные (полученные) данные предоставляются пользователю с помощью?",
+			"answers": [{
+				"answerText": "Сетевых устройств",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "Устройств ввода информации",
+				"pointsAddedForCorrectAnswer": 0
+			}, {
+				"answerText": "Устройств вывода информации",
+				"pointsAddedForCorrectAnswer": 1
+			}, {
+				"answerText": "Физических устройств",
+				"pointsAddedForCorrectAnswer": 0
+			}]
+		}, {
+			"questionText": "Системный блок –?",
+			"answers": [{
+					"answerText": "Вспомогательное устройство",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Основное устройство компьютера",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Дополнительное устройство компьютера",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Нет правильного ответа",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "Все устройства, которые находятся в системном блоке, считаются?",
+			"answers": [{
+					"answerText": "Внешними",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Внутренними",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Вспомогательными",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Второстепенными",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "Первый счетный прибором древности является:",
+			"answers": [{
+					"answerText": "Калькулятор",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Абак",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Арифмометр",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Другое устройство",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "Универсальный прибор для обработки информации?",
+			"answers": [{
+					"answerText": "Калькулятор",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Компьютер",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Принтер",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Сканнер",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "По этой шине данные передаются между различными устройствами?",
+			"answers": [{
+					"answerText": "Шина управления",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Шина данных",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Шина адреса",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Шина передачи",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}, {
+			"questionText": "Считывает и выполняет команды?",
+			"answers": [{
+					"answerText": "Память",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Процессор",
+					"pointsAddedForCorrectAnswer": 1
+				},
+				{
+					"answerText": "Магистраль",
+					"pointsAddedForCorrectAnswer": 0
+				},
+				{
+					"answerText": "Шина",
+					"pointsAddedForCorrectAnswer": 0
+				}
+			]
+		}]
+	}]
+}
